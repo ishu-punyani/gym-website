@@ -1,0 +1,67 @@
+.contact{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.contact-left{
+    height: 450px;
+    width: 450px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-left img{
+    height: 440px;
+    width: 440px;
+}
+.contact-right{
+    height: 450px;
+    width: 450px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#btn{
+    height: 35px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 700;
+    background-color: yellow;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+.inp{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    width: 50%;
+    margin-bottom: 10px;
+    /* background-color: blueviolet; */
+    /* margin-left: 10px; */
+    border-radius: 5px;
+    padding: 5px;
+    /* background-color: aqua; */
+}
+span{
+    font-size: 1.2rem;
+}
+.submitted{
+    color: green;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    /* background-color: brown ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

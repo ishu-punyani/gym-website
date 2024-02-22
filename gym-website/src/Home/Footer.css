@@ -1,0 +1,38 @@
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: yellow;
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-part{
+    height: 200px;
+    width: 25%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    flex-direction: column;
+}
+.fone img{
+    height: 120px;
+    width: 120px;
+}
+.fone p{
+    font-size: 1.2rem;
+    color: black;
+}
+.ftwo{
+    color: black;
+}
+.ftwo p{
+    font-size: 1.2rem;
+}
+.fthree{
+    color: black;
+}
+.fthree i{
+    font-size: 1.2rem;
+}

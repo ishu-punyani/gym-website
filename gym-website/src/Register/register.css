@@ -1,0 +1,48 @@
+.result{
+    color: red;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.register-body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(11, 11, 11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(black,black,yellow);
+}
+.register{
+    height: 520px;
+    width: 400px;
+    background-color: rgb(234, 234, 234);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.register h1{
+    color: black;
+    font-weight: 750;
+    text-align: center;
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+}
+.register input{
+    padding: 5px;
+    width: 80%;
+    margin-left: 30px;
+    /* margin-bottom: 20px; */
+    font-size: 1.1rem;
+}
+.register-btn{
+    padding: 5px;
+    width: 83%;
+    margin-left: 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.register h3{
+    text-align: center;
+    color: rgb(11, 11, 11);
+    margin-bottom: 5px;
+}
